@@ -7,13 +7,36 @@
     <title>Pre assesment</title>
   
 </head>
-<body style="text-align: center;">
-    Here is the pre assesment!
-    <p id="running-timer">0</p>
-    <div style="display: flex; justify-content: center;">
-        <button id="counter-btn" style="margin-right: 5px;">Click Me!</button>
+<body style="text-align: center;display: flex; margin: 10px;flex-direction: column;align-items: center;background-color: black;color: white;">
+    <div style="border: #fff 1px solid; padding: 10px;">
+        Here is the pre assesment!
+        <p id="running-timer">0</p>
+    </div>
+    
+    <div style="display: flex;justify-content: center;align-items: center; padding: 10px; margin: 10px; border: #fff 1px solid;">
+        <button id="counter-btn" style="margin-right: 5px; cursor: pointer;">Click Me!</button>
         <p>Here is how many time you clicked on the button:</p>&nbsp; <p id='counter-num'>0</p>
     </div>
+    <div style="  border: #fff 1px solid; padding: 10px; margin: 10px;">
+        <p>Add numbers </p> 
+        <p>
+        <label>Number uno:</label>
+        <input id='number-one' type="number"/>
+        </p>
+        <p>
+        <label> Number dos:</label>
+        <input id='number-two' type="number"/>
+        </p>
+        
+        
+        <button id="calculate-num-btn">Let's calculate</button>
+   
+    Here is the result!
+    <span style="font-weight: bold;" id='total-text'>0</span>
+
+    </div>
+       
+   
 </body>
 <script src="index.js"></script>
 </html>
